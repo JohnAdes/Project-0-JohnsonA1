@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e119182f-b523-47e9-b724-b383286b82a2" name="Default Changelist" comment="">
+    <list default="true" id="e119182f-b523-47e9-b724-b383286b82a2" name="Default Changelist" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
       <updated>1587060900124</updated>
       <workItem from="1587060903838" duration="6248000" />
       <workItem from="1587180792961" duration="826000" />
-      <workItem from="1587396231271" duration="24265000" />
+      <workItem from="1587396231271" duration="25090000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1587066502203</created>
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587448842094</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <created>1587449204174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587449204174</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,11 +107,15 @@
     </state>
     <state x="580" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1587066417210" />
     <state x="1040" y="252" key="#com.intellij.ide.util.MemberChooser/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587416314117" />
-    <state x="415" y="127" key="CommitChangelistDialog2" timestamp="1587448841985">
+    <state x="415" y="127" key="CommitChangelistDialog2" timestamp="1587449802733">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="415" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587066502022" />
-    <state x="415" y="127" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587448841985" />
+    <state x="415" y="127" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587449802733" />
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1587449833511">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587449833511" />
     <state x="672" y="425" key="Github.ShareDialog" timestamp="1587448990116">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -115,10 +126,10 @@
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587060913707" />
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587396247986" />
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1587183117147" />
-    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587407611532">
+    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587449833496">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587407611532" />
+    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587449833496" />
     <state x="578" y="295" key="extract.method.dialog" timestamp="1587420735379">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
