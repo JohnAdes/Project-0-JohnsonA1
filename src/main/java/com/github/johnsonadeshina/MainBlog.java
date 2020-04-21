@@ -1,49 +1,48 @@
 package com.github.johnsonadeshina;
 
 import com.github.johnsonadeshina.blogPost.Blog;
+import com.github.johnsonadeshina.blogPost.BlogJournal;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MainBlog {
 
     public static void main (String[] args) {
-        ArrayList<Blog> blogPost = new ArrayList<Blog>();
-        Scanner in = new Scanner(System.in);
-        boolean readyToBlog = true;
-
-        while(readyToBlog){
-
-            int id = 0;
-            ++id;
-
-            System.out.println("Please enter your Blog Title: or 'Quit' to exit the program");
-            String title = in.nextLine();
-            if(title.equalsIgnoreCase("Quit")) {
-                break;
+        Scanner scanner = new Scanner(System.in);
+        // BlogJournal instance
+        BlogJournal blogJournal = new BlogJournal();
+        int option = 0;
+        // main loop
+        while (option != 4) {
+            System.out.println ("Welcome to your Blog");
+            blogJournal.printBlogPosts();
+            System.out.println();
+            System.out.println("Choose an action:");
+            System.out.println("1 - Add an entry");
+            System.out.println("2 - Search for entries");
+            System.out.println("3 - Delete entries");
+            System.out.println("4 - End");
+            option = scanner.nextInt();
+            System.out.println();
+            // reaction to the choice
+            switch (option) {
+                case 1:
+                    blogJournal.addBlog();
+                    break;
+                case 2:
+                    blogJournal.searchBlogPosts();
+                    break;
+                case 3:
+                    blogJournal.deleteBlogPosts();
+                    break;
+                case 4:
+                    System.out.println("Press any key to quit the program...");
+                    break;
+                default:
+                    System.out.println("Error. Press any key to choose another action.");
+                    break;
             }
-
-            System.out.println("Please enter the Author:");
-            String author = in.nextLine();
-
-            System.out.println("Please enter your Blog Entry:");
-//            in.next();
-            String blogEntry = in.nextLine();
-
-            //create log of blogposts
-            Blog blog = new Blog(id, title, author, blogEntry);
-            blogPost.add(blog);
-            }
-            in.close();
-
-        System.out.println("S/No." + ".\t " + "Title" + ",\t " + "Author" + ",\t " + "Blog Entry" );
-        System.out.println("==============================================");
-        for(Blog blogs : blogPost){
-            System.out.println(blogs.getId() + ",\t " + blogs.getTitle() + ",\t " + blogs.getAuthor() + ",\t " + blogs.getBlogEntry());
-
         }
-
     }
-
 
 }

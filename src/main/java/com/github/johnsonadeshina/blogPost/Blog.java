@@ -1,30 +1,33 @@
 package com.github.johnsonadeshina.blogPost;
 
 public class Blog {
-    private int id;
-    private String title;
-    private String author;
-    private String blogEntry;
+
+//    protected int id;
+    protected String title;
+    protected String author;
+    protected String blogEntry;
 
     public Blog() {
     }
 
 
-    public Blog(int id, String title, String author, String blogEntry) {
-        this.id = id;
+    public Blog( String title, String author, String blogEntry) {
+//        this.id = id;
         this.title = title;
         this.author = author;
         this.blogEntry = blogEntry;
     }
 
 
-    public int getId() {
-        return id;
-    }
 
-    public void setId(int id) {
-        this.id = id;
-    }
+
+//    public int getId() {
+//        return id;
+//    }
+//
+//    public void setId(int id) {
+//        this.id = id;
+//    }
 
     public String getTitle() {
         return title;
@@ -53,7 +56,7 @@ public class Blog {
     @Override
     public String toString() {
         return "Blog{" +
-                "id=" + getId() +
+//                "id=" + getId() +
                 ", title='" + getTitle() + '\'' +
                 ", author='" + getAuthor() + '\'' +
                 ", blogEntry='" + getBlogEntry() + '\'' +

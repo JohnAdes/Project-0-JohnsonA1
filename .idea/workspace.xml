@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e119182f-b523-47e9-b724-b383286b82a2" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/changelog.md" afterDir="false" />
+    <list default="true" id="e119182f-b523-47e9-b724-b383286b82a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/johnsonadeshina/blogPost/BlogJournal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/johnsonadeshina/blogPost/BlogOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/johnsonadeshina/MainBlog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/johnsonadeshina/MainBlog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/johnsonadeshina/blogPost/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/johnsonadeshina/blogPost/Blog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/johnsonadeshina/MainBlog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/johnsonadeshina/MainBlog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/johnsonadeshina/blogPost/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/johnsonadeshina/blogPost/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +49,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -61,7 +64,7 @@
       <updated>1587060900124</updated>
       <workItem from="1587060903838" duration="6248000" />
       <workItem from="1587180792961" duration="826000" />
-      <workItem from="1587396231271" duration="3067000" />
+      <workItem from="1587396231271" duration="23895000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1587066502203</created>
@@ -70,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587066502203</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1587407549009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587407549009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,28 +91,35 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="190" key="#Project_Structure" timestamp="1587060946340">
+    <state x="440" y="190" key="#Project_Structure" timestamp="1587446203062">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="190" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1587060946340" />
-    <state x="580" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1587066417210">
+    <state x="440" y="190" key="#Project_Structure/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587446203062" />
+    <state x="1040" y="252" key="#com.intellij.ide.util.MemberChooser" timestamp="1587416314117">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="580" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1587066417210" />
-    <state x="415" y="127" key="CommitChangelistDialog2" timestamp="1587407323327">
+    <state x="1040" y="252" key="#com.intellij.ide.util.MemberChooser/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587416314117" />
+    <state x="415" y="127" key="CommitChangelistDialog2" timestamp="1587407548844">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="415" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587066502022" />
-    <state x="415" y="127" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587407323327" />
+    <state x="415" y="127" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587407548844" />
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1587396247986">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587060913707" />
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587396247986" />
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1587183117147" />
-    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587407296396">
+    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587407611532">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587407296396" />
+    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587407611532" />
+    <state x="578" y="295" key="extract.method.dialog" timestamp="1587420735379">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="295" key="extract.method.dialog/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587416757773" />
+    <state x="578" y="295" key="extract.method.dialog/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1587420735379" />
   </component>
 </project>
