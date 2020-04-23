@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class BlogOperations{
 
-    private ArrayList<Blog> blogPosts;
+    public ArrayList<Blog> blogPosts;
 
     public BlogOperations() {
         blogPosts = new ArrayList<Blog>();

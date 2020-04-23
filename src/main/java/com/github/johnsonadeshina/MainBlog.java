@@ -2,6 +2,7 @@ package com.github.johnsonadeshina;
 
 import com.github.johnsonadeshina.blogPost.Blog;
 import com.github.johnsonadeshina.blogPost.BlogJournal;
+import com.github.johnsonadeshina.io.FileParser;
 
 import java.util.Scanner;
 
@@ -28,7 +29,7 @@ public class MainBlog {
             switch (option) {
                 case 1:
                     blogJournal.addBlog();
-                    break;
+                   break;
                 case 2:
                     blogJournal.searchBlogPosts();
                     break;
@@ -36,6 +37,10 @@ public class MainBlog {
                     blogJournal.deleteBlogPosts();
                     break;
                 case 4:
+                    FileParser fileParser = new FileParser();
+                    fileParser.writeABlog(blogJournal);
+                break;
+                case 5:
                     System.out.println("Press any key to quit the program...");
                     break;
                 default:

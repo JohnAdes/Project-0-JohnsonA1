@@ -1,4 +1,5 @@
 com/github/johnsonadeshina/blogPost/Blog.class
 com/github/johnsonadeshina/blogPost/BlogOperations.class
+com/github/johnsonadeshina/io/FileParser.class
 com/github/johnsonadeshina/blogPost/BlogJournal.class
 com/github/johnsonadeshina/MainBlog.class

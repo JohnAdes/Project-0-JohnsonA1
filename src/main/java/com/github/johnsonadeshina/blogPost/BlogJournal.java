@@ -1,12 +1,13 @@
 package com.github.johnsonadeshina.blogPost;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class BlogJournal {
 
-    private BlogOperations blogOperations;
-    private ArrayList<Blog> blogPosts;
+    public BlogOperations blogOperations;
+    public ArrayList<Blog> blogPosts = new ArrayList<Blog>();
 
     private Scanner in = new Scanner(System.in);
 
@@ -15,8 +16,9 @@ public class BlogJournal {
     }
 
     public void printBlogPosts() {
-        ArrayList<Blog> blogPosts = new ArrayList<Blog>();
+//        ArrayList<Blog> blogPosts = new ArrayList<Blog>();
         for (Blog blog : blogPosts) {
+
             System.out.println(blog);
         }
     }
@@ -28,7 +30,11 @@ public class BlogJournal {
         String author = in.nextLine();
         System.out.println("Please enter your Blog Entry:");
         String blogEntry = in.nextLine();
-//        blogPosts.add(new Blog(title, author, blogEntry));
+        blogPosts.add(new Blog(title, author, blogEntry));
+
+
+
+
 
     }
 
@@ -53,6 +59,11 @@ public class BlogJournal {
         System.out.println("Entries with the same exact date and time will be deleted");
         String author = "";
         blogOperations.deleteBlogPosts(author);
+    }
+
+    public List<Blog> getAll(){
+
+        return  blogPosts;
     }
 
 
